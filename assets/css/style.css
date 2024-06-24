@@ -1,0 +1,46 @@
+.main-section {
+    background-image: url('../imgs/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+}
+
+.card img{
+    height: 250px;
+}
+i{
+    font: green;
+}
+#arriendo {
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/mudanza-embalaje-1560165335.jpg?crop=1.00xw:0.754xh;0,0.127xh&resize=980:*');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    
+}
+#ventaa {
+    background-image: url('https://www.hogaresdeesa.com/wp-content/uploads/2019/09/entrega-de-vivendas-01.jpg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    
+}
