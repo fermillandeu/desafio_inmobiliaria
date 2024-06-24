@@ -87,8 +87,12 @@ function renderizarPropiedades(propiedades, container) {
                     <p class="card-text">Habitaciones: ${propiedad.habitaciones}</p>
                     <p class="card-text">Baños: ${propiedad.baños}</p>
                     <p class="card-text">Costo: $${propiedad.costo}</p>
-                    <p class="card-text">Se permite fumar: ${propiedad.smoke ? 'Sí' : 'No'}</p>
-                    <p class="card-text">Se permiten mascotas: ${propiedad.pets ? 'Se permiten macotas' : 'No'}</p>
+                     <p class="card-text"> 
+                        ${propiedad.smoke ? '<i class="fa-solid fa-smoking" style="color: green;"></i> Se permite fumar' : '<i class="fa-solid fa-ban-smoking" style="color: red;"></i> No se permite fumar'}
+                    </p>
+                    <p class="card-text"> 
+                        ${propiedad.pets ? '<i class="fa-solid fa-paw" style="color: green;"></i> Se permiten mascotas' : '<i class="fa-solid fa-ban" style="color: red;"></i> No se permiten mascotas'}
+                    </p>
                 </div>
             </div>
         `;
